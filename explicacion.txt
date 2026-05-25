@@ -1,0 +1,17 @@
+Juntar varios ficheros de script
+AdvancedBehaviours buscar los metodos necesarios
+linea de vision coger FPS y NPC
+Crear los cubos como hide object
+hacer animator con 4 estados
+
+patrol -> chase  isVisible = True y distance < 30 
+chase -> patrol  isVisible = false o distance > 30
+
+chase -> attack distance < 10
+chase -> attack distance > 10
+
+attack -> hide health < 20
+
+hide -> patrol health > 80
+patrol -> hide health < 80
+
